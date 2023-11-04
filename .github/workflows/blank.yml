@@ -14,7 +14,7 @@ jobs:
         git pull
         rm -f release.zip
     - name: Archive Release
-      uses: CI-ResourcePack/zip-release@master
+      uses: zip-release@master
       with:
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
