@@ -1,2 +1,4 @@
-
-name: Create-Release
+  name: Create-Release
+  uses: actions/reate-release@v1
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
