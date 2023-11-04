@@ -1,4 +1,5 @@
-name: CI
+
+name: Create Archive
 on: [push]
 jobs:
   build:
@@ -9,18 +10,17 @@ jobs:
     - name: pull latest and remove old file from repo
       run: |
         git config --global user.name "H-but-fancy"
-        git config --global user.email "echo"
+        git config --global user.email "echodot69420@gmail.com"
         git config pull.rebase false
         git pull
         rm -f release.zip
     - name: Archive Release
-      uses: zip-release@master
+      uses: thedoctor0/zip-release@master
       with:
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: push changes to remote
       run: |
-
         git add -A
         git commit -m "new pack"
         git push --force
