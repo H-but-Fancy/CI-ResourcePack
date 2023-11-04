@@ -1,0 +1,17 @@
+{
+ "parent": "item/generated",
+ "textures": {
+ "layer0": "item/gold_nugget"
+ },
+ 
+ "overrides": [
+ {"predicate": {"custom_model_data":1}, "model": "item/custom/deepforge_common_coin"},
+ {"predicate": {"custom_model_data":2}, "model": "item/custom/deepforge_uncommon_coin"},
+ {"predicate": {"custom_model_data":3}, "model": "item/custom/deepforge_rare_coin"},
+ {"predicate": {"custom_model_data":4}, "model": "item/custom/deepforge_very_rare_coin"},
+ {"predicate": {"custom_model_data":5}, "model": "item/custom/deepforge_legendary_coin"},
+ {"predicate": {"custom_model_data":6}, "model": "item/custom/deepforge_common_token"},
+ {"predicate": {"custom_model_data":7}, "model": "item/custom/deepforge_uncommon_token"},
+ {"predicate": {"custom_model_data":8}, "model": "item/custom/deepforge_rare_token"}
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "parent": "item/handheld",
+ "textures": {
+ "layer0": "item/tropical_fish"
+ },
+ 
+ "overrides": [
+ {"predicate": {"custom_model_data":16}, "model": "item/bread"},
+ {"predicate": {"custom_model_data":17}, "model": "item/tropical_fish/toastitem"},
+ {"predicate": {"custom_model_data":18}, "model": "item/tropical_fish/grilledcheeseitem"},
+ {"predicate": {"custom_model_data":19}, "model": "item/tropical_fish/carrotbreaditem"},
+ {"predicate": {"custom_model_data":20}, "model": "item/tropical_fish/pumpkinbreaditem"},
+ {"predicate": {"custom_model_data":22}, "model": "item/tropical_fish/squidinkspaghettiitem"},
+ {"predicate": {"custom_model_data":23}, "model": "item/tropical_fish/macncheeseitem"},
+ {"predicate": {"custom_model_data":24}, "model": "item/tropical_fish/noodlesoupitem"},
+ {"predicate": {"custom_model_data":25}, "model": "item/tropical_fish/applepieitem"},
+ {"predicate": {"custom_model_data":26}, "model": "item/tropical_fish/sweetberrypieitem"},
+ {"predicate": {"custom_model_data":27}, "model": "item/tropical_fish/glowberrypieitem"},
+ {"predicate": {"custom_model_data":28}, "model": "item/tropical_fish/chocolatecupcakeitem"},
+ {"predicate": {"custom_model_data":29}, "model": "item/tropical_fish/carrotcupcakeitem"},
+ {"predicate": {"custom_model_data":30}, "model": "item/tropical_fish/pumpkincupcakeitem"},
+ {"predicate": {"custom_model_data":31}, "model": "item/tropical_fish/caramelcupcakeitem"},
+
+ {"predicate": {"custom_model_data":33}, "model": "item/tropical_fish/chocolatecakeitem"},
+ {"predicate": {"custom_model_data":34}, "model": "item/tropical_fish/cheesecakeitem"},
+ {"predicate": {"custom_model_data":35}, "model": "item/tropical_fish/pumpkincheesecakeitem"},
+ {"predicate": {"custom_model_data":36}, "model": "item/tropical_fish/carrotcakeitem"},
+ {"predicate": {"custom_model_data":37}, "model": "item/tropical_fish/chocolatemuffinitem"},
+ {"predicate": {"custom_model_data":38}, "model": "item/tropical_fish/carrotmuffinitem"},
+ {"predicate": {"custom_model_data":39}, "model": "item/tropical_fish/pumpkinmuffinitem"},
+ {"predicate": {"custom_model_data":40}, "model": "item/tropical_fish/caramelmuffinitem"},
+ {"predicate": {"custom_model_data":41}, "model": "item/tropical_fish/donutitem"},
+ {"predicate": {"custom_model_data":42}, "model": "item/tropical_fish/chocolatedonutitem"},
+ {"predicate": {"custom_model_data":43}, "model": "item/tropical_fish/jellydonutitem"},
+ {"predicate": {"custom_model_data":44}, "model": "item/tropical_fish/crackeritem"},
+ {"predicate": {"custom_model_data":45}, "model": "item/cookie"},
+ {"predicate": {"custom_model_data":46}, "model": "item/tropical_fish/softpretzelitem"},
+ {"predicate": {"custom_model_data":47}, "model": "item/tropical_fish/tortillaitem"},
+ {"predicate": {"custom_model_data":48}, "model": "item/tropical_fish/quesadillaitem"},
+ {"predicate": {"custom_model_data":49}, "model": "item/tropical_fish/breakfastburritoitem"},
+ {"predicate": {"custom_model_data":50}, "model": "item/tropical_fish/sugarcookieitem"},
+
+
+ {"predicate": {"custom_model_data":53}, "model": "item/tropical_fish/freshmilkitem"},
+
+ {"predicate": {"custom_model_data":55}, "model": "item/tropical_fish/cheeseitem"},
+
+ {"predicate": {"custom_model_data":57}, "model": "item/tropical_fish/yogurtitem"},
+ {"predicate": {"custom_model_data":58}, "model": "item/tropical_fish/chocolateyogurtitem"},
+ {"predicate": {"custom_model_data":59}, "model": "item/tropical_fish/appleyogurtitem"},
+ {"predicate": {"custom_model_data":60}, "model": "item/tropical_fish/sweetberryyogurtitem"},
+ {"predicate": {"custom_model_data":61}, "model": "item/tropical_fish/pumpkinyogurtitem"},
+ {"predicate": {"custom_model_data":62}, "model": "item/tropical_fish/caramelyogurtitem"},
+ {"predicate": {"custom_model_data":63}, "model": "item/tropical_fish/icecreamitem"},
+ {"predicate": {"custom_model_data":64}, "model": "item/tropical_fish/chocolateicecreamitem"},
+ {"predicate": {"custom_model_data":65}, "model": "item/tropical_fish/caramelicecreamitem"},
+ {"predicate": {"custom_model_data":66}, "model": "item/tropical_fish/cookiesandmilkitem"},
+
+
+ {"predicate": {"custom_model_data":69}, "model": "item/tropical_fish/chocolatebaritem"},
+
+ {"predicate": {"custom_model_data":71}, "model": "item/tropical_fish/hotchocolateitem"},
+ {"predicate": {"custom_model_data":72}, "model": "item/tropical_fish/chocolatebaconitem"},
+ {"predicate": {"custom_model_data":73}, "model": "item/tropical_fish/chocolatepuddingitem"},
+ {"predicate": {"custom_model_data":74}, "model": "item/tropical_fish/chocolaterollitem"},
+ {"predicate": {"custom_model_data":75}, "model": "item/tropical_fish/chocolatecaramelfudgeitem"},
+ {"predicate": {"custom_model_data":76}, "model": "item/tropical_fish/smoresitem"},
+ {"predicate": {"custom_model_data":77}, "model": "item/tropical_fish/trailmixitem"},
+
+
+
+ {"predicate": {"custom_model_data":81}, "model": "item/tropical_fish/boiledeggitem"},
+ {"predicate": {"custom_model_data":82}, "model": "item/tropical_fish/friedeggitem"},
+ {"predicate": {"custom_model_data":83}, "model": "item/tropical_fish/scrambledeggitem"},
+
+ {"predicate": {"custom_model_data":85}, "model": "item/apple"},
+ {"predicate": {"custom_model_data":86}, "model": "item/tropical_fish/applejuiceitem"},
+ {"predicate": {"custom_model_data":87}, "model": "item/tropical_fish/applesmoothieitem"},
+ {"predicate": {"custom_model_data":88}, "model": "item/tropical_fish/applejellyitem"},
+ {"predicate": {"custom_model_data":89}, "model": "item/tropical_fish/applejellytoastitem"},
+ {"predicate": {"custom_model_data":90}, "model": "item/tropical_fish/caramelappleitem"},
+ {"predicate": {"custom_model_data":91}, "model": "item/tropical_fish/applesauceitem"},
+
+ {"predicate": {"custom_model_data":93}, "model": "item/melon_slice"},
+ {"predicate": {"custom_model_data":94}, "model": "item/tropical_fish/melonjuiceitem"},
+ {"predicate": {"custom_model_data":95}, "model": "item/tropical_fish/melonsmoothieitem"},
+ {"predicate": {"custom_model_data":96}, "model": "item/tropical_fish/melonjellyitem"},
+ {"predicate": {"custom_model_data":97}, "model": "item/tropical_fish/melonjellytoastitem"},
+
+ {"predicate": {"custom_model_data":99}, "model": "item/sweet_berries"},
+ {"predicate": {"custom_model_data":100}, "model": "item/tropical_fish/sweetberryjuiceitem"},
+ {"predicate": {"custom_model_data":101}, "model": "item/tropical_fish/sweetberrysmoothieitem"},
+ {"predicate": {"custom_model_data":102}, "model": "item/tropical_fish/sweetberryjellyitem"},
+ {"predicate": {"custom_model_data":103}, "model": "item/tropical_fish/sweetberryjellytoastitem"},
+
+ {"predicate": {"custom_model_data":105}, "model": "item/chicken"},
+ {"predicate": {"custom_model_data":106}, "model": "item/cooked_chicken"},
+ {"predicate": {"custom_model_data":107}, "model": "item/tropical_fish/friedchickenitem"},
+ {"predicate": {"custom_model_data":108}, "model": "item/tropical_fish/groundchickenitem"},
+ {"predicate": {"custom_model_data":109}, "model": "item/tropical_fish/chickennuggetitem"},
+ {"predicate": {"custom_model_data":110}, "model": "item/tropical_fish/chickensandwichitem"},
+ {"predicate": {"custom_model_data":111}, "model": "item/tropical_fish/chickenjerkyitem"},
+ {"predicate": {"custom_model_data":112}, "model": "item/tropical_fish/chickenpotpieitem"},
+ {"predicate": {"custom_model_data":113}, "model": "item/tropical_fish/chickendinneritem"},
+
+ {"predicate": {"custom_model_data":115}, "model": "item/beef"},
+ {"predicate": {"custom_model_data":116}, "model": "item/cooked_beef"},
+ {"predicate": {"custom_model_data":117}, "model": "item/tropical_fish/potroastitem"},
+ {"predicate": {"custom_model_data":118}, "model": "item/tropical_fish/groundbeefitem"},
+ {"predicate": {"custom_model_data":119}, "model": "item/tropical_fish/hamburgeritem"},
+ {"predicate": {"custom_model_data":120}, "model": "item/tropical_fish/cheeseburgeritem"},
+ {"predicate": {"custom_model_data":121}, "model": "item/tropical_fish/baconcheeseburgeritem"},
+ {"predicate": {"custom_model_data":122}, "model": "item/tropical_fish/beefjerkyitem"},
+
+ {"predicate": {"custom_model_data":124}, "model": "item/porkchop"},
+ {"predicate": {"custom_model_data":125}, "model": "item/cooked_porkchop"},
+ {"predicate": {"custom_model_data":126}, "model": "item/tropical_fish/groundporkitem"},
+ {"predicate": {"custom_model_data":127}, "model": "item/tropical_fish/porkjerkyitem"},
+ {"predicate": {"custom_model_data":128}, "model": "item/tropical_fish/bakedhamitem"},
+ {"predicate": {"custom_model_data":129}, "model": "item/tropical_fish/hotdogitem"},
+ {"predicate": {"custom_model_data":130}, "model": "item/tropical_fish/baconandeggsitem"},
+ {"predicate": {"custom_model_data":131}, "model": "item/tropical_fish/epicbaconitem"},
+
+ {"predicate": {"custom_model_data":133}, "model": "item/cod"},
+ {"predicate": {"custom_model_data":134}, "model": "item/cooked_cod"},
+ {"predicate": {"custom_model_data":135}, "model": "item/tropical_fish/groundfishitem"},
+ {"predicate": {"custom_model_data":136}, "model": "item/tropical_fish/fishsticksitem"},
+ {"predicate": {"custom_model_data":137}, "model": "item/tropical_fish/fishsandwichitem"},
+ {"predicate": {"custom_model_data":138}, "model": "item/tropical_fish/fishjerkyitem"},
+ {"predicate": {"custom_model_data":139}, "model": "item/tropical_fish/fishandchipsitem"},
+
+ {"predicate": {"custom_model_data":141}, "model": "item/mutton"},
+ {"predicate": {"custom_model_data":142}, "model": "item/cooked_mutton"},
+ {"predicate": {"custom_model_data":143}, "model": "item/tropical_fish/groundmuttonitem"},
+ {"predicate": {"custom_model_data":144}, "model": "item/tropical_fish/muttonjerkyitem"},
+
+ {"predicate": {"custom_model_data":146}, "model": "item/rabbit"},
+ {"predicate": {"custom_model_data":147}, "model": "item/cooked_rabbit"},
+ {"predicate": {"custom_model_data":148}, "model": "item/tropical_fish/groundrabbititem"},
+ {"predicate": {"custom_model_data":149}, "model": "item/rabbit_stew"},
+ {"predicate": {"custom_model_data":150}, "model": "item/tropical_fish/rabbitjerkyitem"},
+
+ {"predicate": {"custom_model_data":152}, "model": "item/potato"},
+ {"predicate": {"custom_model_data":153}, "model": "item/baked_potato"},
+ {"predicate": {"custom_model_data":154}, "model": "item/tropical_fish/butteredbakedpotatoitem"},
+ {"predicate": {"custom_model_data":155}, "model": "item/tropical_fish/mashedpotatoesitem"},
+ {"predicate": {"custom_model_data":156}, "model": "item/tropical_fish/potatosaladitem"},
+ {"predicate": {"custom_model_data":157}, "model": "item/tropical_fish/friesitem"},
+ {"predicate": {"custom_model_data":158}, "model": "item/tropical_fish/potatochipsitem"},
+ {"predicate": {"custom_model_data":159}, "model": "item/tropical_fish/potatosoupitem"},
+
+ {"predicate": {"custom_model_data":161}, "model": "item/carrot"},
+ {"predicate": {"custom_model_data":162}, "model": "item/tropical_fish/glazedcarrotsitem"},
+ {"predicate": {"custom_model_data":163}, "model": "item/tropical_fish/carrotsoupitem"},
+
+ {"predicate": {"custom_model_data":165}, "model": "item/beetroot"},
+ {"predicate": {"custom_model_data":166}, "model": "item/tropical_fish/pickledbeetsitem"},
+
+
+
+
+ {"predicate": {"custom_model_data":171}, "model": "item/pumpkin_pie"},
+ {"predicate": {"custom_model_data":172}, "model": "item/tropical_fish/pumpkinsoupitem"},
+
+
+ {"predicate": {"custom_model_data":175}, "model": "item/tropical_fish/roastedmushroomitem"},
+ {"predicate": {"custom_model_data":176}, "model": "item/mushroom_stew"},
+ {"predicate": {"custom_model_data":177}, "model": "item/tropical_fish/stuffedmushroomitem"},
+ {"predicate": {"custom_model_data":178}, "model": "item/tropical_fish/mushroomsteakitem"},
+
+ {"predicate": {"custom_model_data":180}, "model": "item/tropical_fish/creamofmushroomitem"},
+
+
+
+ {"predicate": {"custom_model_data":184}, "model": "item/tropical_fish/caramelitem"},
+
+ {"predicate": {"custom_model_data":186}, "model": "item/tropical_fish/marshmellowsitem"},
+ {"predicate": {"custom_model_data":187}, "model": "item/tropical_fish/marshmellowchicksitem"},
+ {"predicate": {"custom_model_data":188}, "model": "item/tropical_fish/cottoncandyitem"},
+ {"predicate": {"custom_model_data":189}, "model": "item/tropical_fish/gummybearsitem"},
+ {"predicate": {"custom_model_data":190}, "model": "item/tropical_fish/jellybeansitem"},
+
+
+
+ {"predicate": {"custom_model_data":194}, "model": "item/tropical_fish/freshwateritem"},
+ {"predicate": {"custom_model_data":195}, "model": "item/tropical_fish/freshmilkitem"},
+
+
+ {"predicate": {"custom_model_data":198}, "model": "item/tropical_fish/sunflowerseedsitem"},
+ {"predicate": {"custom_model_data":199}, "model": "item/tropical_fish/roastedsunflowerseedsitem"},
+ {"predicate": {"custom_model_data":200}, "model": "item/tropical_fish/fruitpunchitem"},
+ {"predicate": {"custom_model_data":201}, "model": "item/tropical_fish/stewitem"},
+ {"predicate": {"custom_model_data":202}, "model": "item/tropical_fish/bakedvegetablemedlyitem"},
+ {"predicate": {"custom_model_data":203}, "model": "item/tropical_fish/fruitsaladitem"},
+ {"predicate": {"custom_model_data":204}, "model": "item/tropical_fish/meatloafitem"},
+ {"predicate": {"custom_model_data":205}, "model": "item/tropical_fish/t8juiceitem"},
+ {"predicate": {"custom_model_data":206}, "model": "item/tropical_fish/fruitcrumbleitem"},
+
+
+ {"predicate": {"custom_model_data":209}, "model": "item/tropical_fish/seedsoupitem"},
+
+ {"predicate": {"custom_model_data":211}, "model": "item/glow_berries"},
+ {"predicate": {"custom_model_data":212}, "model": "item/tropical_fish/glowberryjuiceitem"},
+ {"predicate": {"custom_model_data":213}, "model": "item/tropical_fish/lemonitem"},
+ {"predicate": {"custom_model_data":214}, "model": "item/beetroot_soup"},
+ {"predicate": {"custom_model_data":215}, "model": "item/beetroot_soup"}
+ ]
+}

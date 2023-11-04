@@ -1,0 +1,15 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/lead"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data":1}, "model": "item/custom/wooden_whip"},
+		{ "predicate": {"custom_model_data":2}, "model": "item/custom/stone_whip"},
+		{ "predicate": {"custom_model_data":3}, "model": "item/custom/iron_whip"},
+		{ "predicate": {"custom_model_data":4}, "model": "item/custom/gold_whip"},
+		{ "predicate": {"custom_model_data":5}, "model": "item/custom/diamond_whip"},
+		{ "predicate": {"custom_model_data":6}, "model": "item/custom/netherite_whip"}
+
+	]
+}

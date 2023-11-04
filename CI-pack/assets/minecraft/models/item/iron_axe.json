@@ -1,0 +1,64 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/iron_axe"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data":1}, "model": "item/custom/wooden_club"},
+		{ "predicate": {"custom_model_data":2}, "model": "item/custom/stone_club"},
+		{ "predicate": {"custom_model_data":3}, "model": "item/custom/iron_club"},
+		{ "predicate": {"custom_model_data":4}, "model": "item/custom/gold_club"},
+		{ "predicate": {"custom_model_data":5}, "model": "item/custom/diamond_club"},
+		{ "predicate": {"custom_model_data":6}, "model": "item/custom/netherite_club"},
+
+		{ "predicate": {"custom_model_data":7}, "model": "item/custom/wooden_warhammer"},
+		{ "predicate": {"custom_model_data":8}, "model": "item/custom/stone_warhammer"},
+		{ "predicate": {"custom_model_data":9}, "model": "item/custom/iron_warhammer"},
+		{ "predicate": {"custom_model_data":10}, "model": "item/custom/gold_warhammer"},
+		{ "predicate": {"custom_model_data":11}, "model": "item/custom/diamond_warhammer"},
+		{ "predicate": {"custom_model_data":12}, "model": "item/custom/netherite_warhammer"},
+
+		{ "predicate": {"custom_model_data":13}, "model": "item/custom/iron_gauntlet"},
+		{ "predicate": {"custom_model_data":14}, "model": "item/custom/golden_gauntlet"},
+		{ "predicate": {"custom_model_data":15}, "model": "item/custom/diamond_gauntlet"},
+		{ "predicate": {"custom_model_data":16}, "model": "item/custom/netherite_gauntlet"},
+
+		{ "predicate": {"custom_model_data":17}, "model": "item/custom/wooden_knuckles"},
+		{ "predicate": {"custom_model_data":18}, "model": "item/custom/stone_knuckles"},
+		{ "predicate": {"custom_model_data":19}, "model": "item/custom/iron_knuckles"},
+		{ "predicate": {"custom_model_data":20}, "model": "item/custom/golden_knuckles"},
+		{ "predicate": {"custom_model_data":21}, "model": "item/custom/diamond_knuckles"},
+		{ "predicate": {"custom_model_data":22}, "model": "item/custom/netherite_knuckles"},
+
+
+
+		{ "predicate": {"custom_model_data":23}, "model": "item/custom/wooden_greataxe"},
+		{ "predicate": {"custom_model_data":24}, "model": "item/custom/stone_greataxe"},
+		{ "predicate": {"custom_model_data":25}, "model": "item/custom/iron_greataxe"},
+		{ "predicate": {"custom_model_data":26}, "model": "item/custom/gold_greataxe"},
+		{ "predicate": {"custom_model_data":27}, "model": "item/custom/diamond_greataxe"},
+		{ "predicate": {"custom_model_data":28}, "model": "item/custom/netherite_greataxe"},
+
+
+		{ "predicate": {"custom_model_data":29}, "model": "item/custom/wooden_halberd"},
+		{ "predicate": {"custom_model_data":30}, "model": "item/custom/stone_halberd"},
+		{ "predicate": {"custom_model_data":31}, "model": "item/custom/iron_halberd"},
+		{ "predicate": {"custom_model_data":32}, "model": "item/custom/gold_halberd"},
+		{ "predicate": {"custom_model_data":33}, "model": "item/custom/diamond_halberd"},
+		{ "predicate": {"custom_model_data":34}, "model": "item/custom/netherite_halberd"},
+
+		{ "predicate": {"custom_model_data":35}, "model": "item/custom/wooden_scythe"},
+		{ "predicate": {"custom_model_data":36}, "model": "item/custom/stone_scythe"},
+		{ "predicate": {"custom_model_data":37}, "model": "item/custom/iron_scythe"},
+		{ "predicate": {"custom_model_data":38}, "model": "item/custom/gold_scythe"},
+		{ "predicate": {"custom_model_data":39}, "model": "item/custom/diamond_scythe"},
+		{ "predicate": {"custom_model_data":40}, "model": "item/custom/netherite_scythe"},
+
+		{ "predicate": {"custom_model_data":41}, "model": "item/custom/wooden_hammer"},
+		{ "predicate": {"custom_model_data":42}, "model": "item/custom/stone_hammer2"},
+		{ "predicate": {"custom_model_data":43}, "model": "item/custom/iron_hammer2"},
+		{ "predicate": {"custom_model_data":44}, "model": "item/custom/gold_hammer2"},
+		{ "predicate": {"custom_model_data":45}, "model": "item/custom/diamond_hammer2"},
+		{ "predicate": {"custom_model_data":46}, "model": "item/custom/netherite_hammer2"}
+	]
+}

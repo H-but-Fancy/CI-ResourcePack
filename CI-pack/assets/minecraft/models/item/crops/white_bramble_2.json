@@ -1,0 +1,67 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "block/custom/whitebramblesideunfinished",
+		"particle": "block/custom/whitebramblesideunfinished"
+	},
+	"elements": [
+		{
+			"from": [-2, 0, 4],
+			"to": [18, 18, 4],
+			"faces": {
+				"north": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"south": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"up": {"uv": [0, 0, 10, 0], "texture": "#2"},
+				"down": {"uv": [0, 0, 10, 0], "texture": "#2"}
+			}
+		},
+		{
+			"from": [4, 0, -2],
+			"to": [4, 18, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"east": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"west": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 10, 0], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 0, 10, 0], "rotation": 270, "texture": "#2"}
+			}
+		},
+		{
+			"from": [-2, 0, 12],
+			"to": [18, 18, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 4]},
+			"faces": {
+				"north": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"south": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"up": {"uv": [0, 0, 10, 0], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [0, 0, 10, 0], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [12, 0, -2],
+			"to": [12, 18, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"east": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#2"},
+				"west": {"uv": [0, 7, 10, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 10, 0], "rotation": 270, "texture": "#2"},
+				"down": {"uv": [0, 0, 10, 0], "rotation": 90, "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

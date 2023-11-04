@@ -1,0 +1,6 @@
+{
+    "parent": "item/custom/recurve",
+    "textures": {
+        "layer0": "item/recurve_pulling_2"
+    }
+}

@@ -1,0 +1,51 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/iron_sword"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data":1}, "model": "item/custom/wooden_dagger"},
+		{ "predicate": {"custom_model_data":2}, "model": "item/custom/stone_dagger"},
+		{ "predicate": {"custom_model_data":3}, "model": "item/custom/iron_dagger"},
+		{ "predicate": {"custom_model_data":4}, "model": "item/custom/diamond_dagger"},
+		{ "predicate": {"custom_model_data":5}, "model": "item/custom/netherite_dagger"},
+		{ "predicate": {"custom_model_data":6}, "model": "item/custom/gold_dagger"},
+
+		{ "predicate": {"custom_model_data":7}, "model": "item/custom/wooden_spear"},
+		{ "predicate": {"custom_model_data":8}, "model": "item/custom/stone_spear"},
+		{ "predicate": {"custom_model_data":9}, "model": "item/custom/iron_spear"},
+		{ "predicate": {"custom_model_data":10}, "model": "item/custom/gold_spear"},
+		{ "predicate": {"custom_model_data":11}, "model": "item/custom/diamond_spear"},
+		{ "predicate": {"custom_model_data":12}, "model": "item/custom/netherite_spear"},
+
+
+		{ "predicate": {"custom_model_data":13}, "model": "item/custom/wooden_broadsword"},
+		{ "predicate": {"custom_model_data":14}, "model": "item/custom/stone_broadsword"},
+		{ "predicate": {"custom_model_data":15}, "model": "item/custom/iron_broadsword"},
+		{ "predicate": {"custom_model_data":16}, "model": "item/custom/gold_broadsword"},
+		{ "predicate": {"custom_model_data":17}, "model": "item/custom/diamond_broadsword"},
+		{ "predicate": {"custom_model_data":18}, "model": "item/custom/netherite_broadsword"},
+
+		{ "predicate": {"custom_model_data":19}, "model": "item/custom/wooden_falchion"},
+		{ "predicate": {"custom_model_data":20}, "model": "item/custom/stone_falchion"},
+		{ "predicate": {"custom_model_data":21}, "model": "item/custom/iron_falchion"},
+		{ "predicate": {"custom_model_data":22}, "model": "item/custom/gold_falchion"},
+		{ "predicate": {"custom_model_data":23}, "model": "item/custom/diamond_falchion"},
+		{ "predicate": {"custom_model_data":24}, "model": "item/custom/netherite_falchion"},
+
+		{ "predicate": {"custom_model_data":25}, "model": "item/custom/wooden_katana"},
+		{ "predicate": {"custom_model_data":26}, "model": "item/custom/stone_katana"},
+		{ "predicate": {"custom_model_data":27}, "model": "item/custom/iron_katana"},
+		{ "predicate": {"custom_model_data":28}, "model": "item/custom/gold_katana"},
+		{ "predicate": {"custom_model_data":29}, "model": "item/custom/diamond_katana"},
+		{ "predicate": {"custom_model_data":30}, "model": "item/custom/netherite_katana"},
+
+		{ "predicate": {"custom_model_data":31}, "model": "item/custom/wooden_rapier"},
+		{ "predicate": {"custom_model_data":32}, "model": "item/custom/stone_rapier"},
+		{ "predicate": {"custom_model_data":33}, "model": "item/custom/iron_rapier"},
+		{ "predicate": {"custom_model_data":34}, "model": "item/custom/gold_rapier"},
+		{ "predicate": {"custom_model_data":35}, "model": "item/custom/diamond_rapier"},
+		{ "predicate": {"custom_model_data":36}, "model": "item/custom/netherite_rapier"}
+
+	]
+}

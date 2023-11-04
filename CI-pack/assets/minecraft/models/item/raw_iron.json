@@ -1,0 +1,23 @@
+{
+ "parent": "item/generated",
+ "textures": {
+ "layer0": "item/raw_iron"
+ },
+ 
+ "overrides": [
+ {"predicate": {"custom_model_data":1}, "model": "item/custom/rawtin"},
+ {"predicate": {"custom_model_data":2}, "model": "item/custom/rawzinc"},
+ {"predicate": {"custom_model_data":3}, "model": "item/custom/rawlead"},
+ {"predicate": {"custom_model_data":4}, "model": "item/custom/rawtungsten"},
+ {"predicate": {"custom_model_data":5}, "model": "item/custom/rawaluminum"},
+ {"predicate": {"custom_model_data":6}, "model": "item/custom/rawmeteorite"},
+ {"predicate": {"custom_model_data":7}, "model": "item/custom/rawcobalt"},
+ {"predicate": {"custom_model_data":8}, "model": "item/custom/rawruthenium"},
+ {"predicate": {"custom_model_data":9}, "model": "item/custom/rawpalladium"},
+ {"predicate": {"custom_model_data":10}, "model": "item/custom/raworichalcum"},
+ {"predicate": {"custom_model_data":11}, "model": "item/custom/rawsvartium"},
+ {"predicate": {"custom_model_data":12}, "model": "item/custom/rawstygium"},
+ {"predicate": {"custom_model_data":13}, "model": "item/custom/rawpromethium"},
+ {"predicate": {"custom_model_data":14}, "model": "item/custom/rawadamantine"}
+ ]
+}

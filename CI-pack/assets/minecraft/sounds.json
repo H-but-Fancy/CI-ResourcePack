@@ -1,0 +1,84 @@
+{
+    "cjb.end.theme": {
+         "sounds":[
+             {
+                 "name": "cjb/ruina",
+                 "weight": 1,
+                 "stream": true
+             },
+             {
+                "name": "cjb/pendulus",
+                "weight": 1,
+                "stream": true
+            } 
+         ]
+    },
+    "cjb.blightlands.theme": {
+        "sounds":[
+            {
+                "name": "cjb/blightlands",
+                "weight": 1,
+                "stream": true
+            },
+            {
+               "name": "cjb/blightpaths",
+               "weight": 1,
+               "stream": true
+           } 
+        ]
+   },
+   "cjb.halfmoon.theme": {
+       "sounds":[
+           {
+               "name": "cjb/snowvalley",
+               "weight": 1,
+               "stream": true
+           }
+       ]
+  },
+    "cjb.void.theme": {
+        "sounds":[
+            {
+                "name": "cjb/ruina",
+                "weight": 1,
+                "stream": true
+            } 
+        ]
+   },
+   "cjb.emerald_steppes.theme": {
+    "sounds":[
+        {
+            "name": "cjb/reflections",
+            "weight": 1,
+            "stream": true
+        } 
+    ]
+    },
+    "cjb.blacklands.theme": {
+        "sounds":[
+            {
+                "name": "cjb/artem",
+                "weight": 1,
+                "stream": true
+            } 
+        ]
+   },
+   "cjb.isles_of_dawn.theme": {
+    "sounds":[
+        {
+            "name": "cjb/theremin",
+            "weight": 1,
+            "stream": true
+        } 
+    ]
+    },
+    "cjb.tranquil_states.theme": {
+        "sounds":[
+            {
+                "name": "cjb/artem",
+                "weight": 1,
+                "stream": true
+            } 
+        ]
+   }
+}
