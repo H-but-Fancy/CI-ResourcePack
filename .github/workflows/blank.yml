@@ -1,19 +1,14 @@
-name: Releases
-
-on: 
+name: MasterDeployCI
+on:
   push:
-    tags:
-    - '*'
-
+    branches:
+      - master
 jobs:
-
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-    - uses: actions/checkout@v3
-    - uses: ncipollo/release-action@v1
-      with:
-        artifacts: "release.tar.gz,foo/*.txt"
-        bodyFile: "body.md"
+    - uses: actions/checkout@v1
+    - name: Zip Folder
+      run: zip -r release.zip .
+    - name: Release to Github
+      run: echo "Release"
