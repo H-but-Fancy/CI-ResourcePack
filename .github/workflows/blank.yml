@@ -1,5 +1,5 @@
 name: testing
-on: push
-- uses: montudor/action-zip@v1
+  on: push
+  uses: montudor/action-zip@v1
   with:
     args: zip -qq -r dir.zip dir
