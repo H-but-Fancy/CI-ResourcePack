@@ -15,8 +15,8 @@ jobs:
         dest: result.zip
     - run: |
           date > generated.txt
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name H-but-fancy
+          git config user.email echodot69420@gmail.com
           git add .
           git commit -m "generated"
           git push
