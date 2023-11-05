@@ -11,4 +11,4 @@ jobs:
     - uses: vimtor/action-zip@v1.1
       with:
         files: ./assets/
-        dest: CI-pack.zip
+        dest: ${{ github.workspace }}/result.zip
