@@ -11,3 +11,4 @@ jobs:
     - uses: vimtor/action-zip@v1.1
       with:
         files: assets/ pack.mcmeta pack.png
+        dest: CI-pack.zip
