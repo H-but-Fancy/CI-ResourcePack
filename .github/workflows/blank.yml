@@ -10,5 +10,5 @@ jobs:
     - uses: actions/checkout@v4
     - uses: vimtor/action-zip@v1.1
       with:
-        files: ./assets/
+        files: ${{ github.workspace }}/assets
         dest: ${{ github.workspace }}/result.zip
