@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: vimtor/action-zip@v1.1
+    - uses: actions/upload-artifact@v1.1
       with:
-        files: ${{ github.workspace }}/assets
-        dest: ${{ github.workspace }}/result.zip
+        name: my-artifact
+        path: ${{ github.workspace }}/result.zip
