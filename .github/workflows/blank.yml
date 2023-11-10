@@ -1,15 +1,22 @@
-name: Echo-test
+name: zip
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   zip:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - uses: vimtor/action-zip@v1.1
+    - run: zip -r mod.zip a/ test
+    - run: sha1sum mod.zip > mod.zip.sha1sum
+
+    - uses: pyTooling/Actions/releaser@main
       with:
-        files: .
-        recursive: false
-        dest: result.zip
+        rm: true
+        token: ${{ secrets.GITHUB_TOKEN }}
+        files: mod.zip*
